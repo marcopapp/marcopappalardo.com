@@ -3,212 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Marco Pappalardo — Plastic and Reconstructive Surgeon, academic physician, and lymphedema microsurgery specialist.">
-  <meta name="theme-color" content="#103f3a">
-  <title>Marco Pappalardo | Plastic &amp; Reconstructive Surgeon</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Marco Pappalardo — Plastic and Reconstructive Surgeon focused on lymphedema surgery, microsurgery, and clinical research.">
+  <title>Marco Pappalardo, MD | Plastic & Reconstructive Surgeon</title>
+  <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-
-  <header class="site-header" id="site-header">
-    <a class="brand" href="#home" aria-label="Marco Pappalardo, homepage">
-      <span class="brand-mark" aria-hidden="true">MP</span>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Marco Pappalardo home">
       <span class="brand-name">Marco Pappalardo</span>
+      <span class="brand-title">MD · Plastic & Reconstructive Surgeon</span>
     </a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-      <span class="sr-only">Toggle navigation</span>
-      <span></span><span></span>
+      <span class="sr-only">Toggle navigation</span><span></span><span></span>
     </button>
-    <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
-      <a href="#about">About</a>
-      <a href="#expertise">Expertise</a>
-      <a href="#research">Research</a>
-      <a href="#teaching">Teaching</a>
-      <a class="nav-contact" href="#contact">Contact</a>
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+      <a href="#about">About</a><a href="#expertise">Clinical Expertise</a><a href="#research">Research</a><a href="#contact">Contact</a>
     </nav>
   </header>
-
-  <main id="main">
-    <section class="hero" id="home">
-      <div class="hero-copy">
-        <p class="eyebrow">Plastic &amp; Reconstructive Surgery</p>
-        <h1>Science, precision<br>and humanity in care.</h1>
-        <p class="hero-intro">Marco Pappalardo is a plastic and reconstructive surgeon and academic physician with a special focus on microsurgical reconstruction and lymphedema care.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#expertise">Explore clinical expertise</a>
-          <a class="text-link" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
-        </div>
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Science. Precision. Human care.</p>
+        <h1>Reconstructive surgery shaped around the person.</h1>
+        <p class="hero-copy">I am a plastic and reconstructive surgeon with a specialist interest in lymphatic surgery, microsurgery, and evidence-led care.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#expertise">Explore my work</a><a class="text-link" href="#contact">Get in touch <span aria-hidden="true">↗</span></a></div>
       </div>
-      <div class="hero-visual" aria-label="Portrait placeholder">
-        <div class="portrait-placeholder">
-          <span>MP</span>
-          <small>Portrait to be added</small>
-        </div>
-        <div class="hero-note">
-          <span class="note-line"></span>
-          <p>Clinical excellence<br>guided by evidence</p>
-        </div>
-      </div>
-      <div class="hero-index" aria-hidden="true">01</div>
+      <div class="hero-note" aria-label="Professional focus"><span>Based in Modena, Italy</span><span>Clinical practice & academic research</span></div>
     </section>
-
-    <section class="intro section" id="about">
-      <div class="section-label reveal">
-        <span>01</span>
-        <p>About</p>
-      </div>
-      <div class="intro-content reveal">
-        <p class="large-copy">A patient-centred approach where reconstructive expertise meets academic enquiry.</p>
-        <div class="two-column-copy">
-          <p>Dr Pappalardo's work spans clinical practice, research, and medical education. His approach is grounded in careful listening, thoughtful planning, and the pursuit of outcomes that restore both form and function.</p>
-          <p class="placeholder-copy">Professional biography, current academic appointment, hospital affiliations, and training history will be added here.</p>
-        </div>
+    <section id="about" class="section section-about">
+      <div class="section-heading"><p class="section-number">01</p><h2>About</h2></div>
+      <div class="section-content"><p class="lead">My work brings together advanced reconstructive techniques, careful clinical judgment, and long-term partnership with patients.</p><p>I focus on restoring function and quality of life through individualized treatment. Every plan begins with a clear diagnosis and an honest discussion of the most appropriate options—from conservative care to microsurgical reconstruction.</p></div>
+    </section>
+    <section id="expertise" class="section">
+      <div class="section-heading"><p class="section-number">02</p><h2>Clinical Expertise</h2></div>
+      <div class="section-content expertise-grid">
+        <article class="expertise-card"><p class="card-index">A</p><h3>Lymphedema Surgery</h3><p>Patient-specific assessment and treatment, including lymphovenous anastomosis and vascularized lymph node transfer.</p></article>
+        <article class="expertise-card"><p class="card-index">B</p><h3>Microsurgery</h3><p>Precise reconstruction of complex defects using contemporary microsurgical and supermicrosurgical techniques.</p></article>
+        <article class="expertise-card"><p class="card-index">C</p><h3>Reconstructive Surgery</h3><p>Thoughtful restoration of form and function following cancer treatment, trauma, or congenital conditions.</p></article>
       </div>
     </section>
-
-    <section class="expertise section section-dark" id="expertise">
-      <div class="section-heading reveal">
-        <div class="section-label section-label-light">
-          <span>02</span>
-          <p>Clinical Expertise</p>
-        </div>
-        <h2>Specialist care,<br>considered as a whole.</h2>
-      </div>
-      <div class="expertise-grid">
-        <article class="expertise-card reveal" id="reconstructive-surgery">
-          <div class="card-number">01</div>
-          <div>
-            <p class="card-kicker">Restoring form &amp; function</p>
-            <h3>Plastic &amp; Reconstructive Surgery</h3>
-            <p>Personalised reconstructive planning shaped by anatomy, function, and each patient's individual priorities.</p>
-          </div>
-          <span class="card-arrow" aria-hidden="true">↗</span>
-        </article>
-        <article class="expertise-card reveal" id="cosmetic-surgery">
-          <div class="card-number">02</div>
-          <div>
-            <p class="card-kicker">Natural, balanced outcomes</p>
-            <h3>Cosmetic Surgery</h3>
-            <p>A measured and patient-led approach, with careful assessment and clear discussion of goals and expectations.</p>
-          </div>
-          <span class="card-arrow" aria-hidden="true">↗</span>
-        </article>
-        <article class="expertise-card expertise-card-featured reveal" id="lymphedema">
-          <div class="card-number">03</div>
-          <div>
-            <p class="card-kicker">Advanced microsurgical care</p>
-            <h3>Lymphedema Microsurgery</h3>
-            <p>Comprehensive evaluation and microsurgical treatment pathways tailored to disease stage and individual needs.</p>
-          </div>
-          <span class="card-arrow" aria-hidden="true">↗</span>
-        </article>
-      </div>
+    <section id="research" class="section section-research">
+      <div class="section-heading"><p class="section-number">03</p><h2>Research</h2></div>
+      <div class="section-content"><p class="lead">Clinical questions should lead to better decisions at the bedside.</p><p>My research explores lymphatic imaging, disease staging, treatment selection, and outcomes in reconstructive microsurgery. The goal is practical: clearer pathways, earlier intervention, and care tailored to each patient—and, in bilateral disease, to each limb.</p><div class="research-topics" aria-label="Research areas"><span>Lymphatic imaging</span><span>Treatment stratification</span><span>Microsurgical outcomes</span><span>Patient-reported quality of life</span></div></div>
     </section>
-
-    <section class="focus section">
-      <div class="focus-visual reveal" aria-hidden="true">
-        <div class="orbit orbit-one"></div>
-        <div class="orbit orbit-two"></div>
-        <div class="focus-core">L</div>
-      </div>
-      <div class="focus-copy reveal">
-        <p class="eyebrow">Lymphedema Microsurgery</p>
-        <h2>Individual diagnosis.<br>Individual treatment.</h2>
-        <p>Lymphedema is a complex, progressive condition. Modern imaging and microsurgery allow treatment to be planned around the functional status of each limb and the needs of each patient.</p>
-        <p>This section will expand to explain evaluation, conservative care, lymphovenous anastomosis, and vascularized lymph node transfer in clear, patient-friendly language.</p>
-        <a class="text-link" href="#contact">Discuss a consultation <span aria-hidden="true">↗</span></a>
-      </div>
-    </section>
-
-    <section class="academic section" id="research">
-      <div class="section-heading academic-heading reveal">
-        <div class="section-label">
-          <span>03</span>
-          <p>Research &amp; Publications</p>
-        </div>
-        <h2>Advancing practice<br>through evidence.</h2>
-      </div>
-      <div class="academic-list reveal">
-        <article class="publication-row">
-          <span class="publication-type">Research focus</span>
-          <h3>Lymphedema staging, microsurgery, and outcomes</h3>
-          <span class="publication-year">Ongoing</span>
-        </article>
-        <article class="publication-row placeholder-row">
-          <span class="publication-type">Selected work</span>
-          <h3>Featured publication title will appear here</h3>
-          <span class="publication-year">Year</span>
-        </article>
-        <article class="publication-row placeholder-row">
-          <span class="publication-type">Selected work</span>
-          <h3>Featured publication title will appear here</h3>
-          <span class="publication-year">Year</span>
-        </article>
-      </div>
-      <p class="section-note reveal">A curated list of peer-reviewed publications, current studies, and academic collaborations will be added here.</p>
-    </section>
-
-    <section class="teaching section" id="teaching">
-      <div class="teaching-copy reveal">
-        <div class="section-label">
-          <span>04</span>
-          <p>Teaching &amp; Conferences</p>
-        </div>
-        <h2>Sharing knowledge.<br>Shaping future care.</h2>
-        <p>Teaching and scientific exchange are central to better surgical practice. This space will feature invited lectures, international meetings, educational activity, and mentorship.</p>
-      </div>
-      <div class="teaching-panel reveal">
-        <div class="teaching-item">
-          <span>01</span>
-          <p>Invited lectures</p>
-        </div>
-        <div class="teaching-item">
-          <span>02</span>
-          <p>Scientific meetings</p>
-        </div>
-        <div class="teaching-item">
-          <span>03</span>
-          <p>Medical education</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="contact section section-dark" id="contact">
-      <div class="contact-main reveal">
-        <p class="eyebrow eyebrow-light">Contact</p>
-        <h2>Begin a conversation.</h2>
-        <p>For clinical enquiries, academic collaboration, teaching, or speaking engagements, please use the contact details below.</p>
-        <a class="button button-light" href="mailto:your.email@example.com">your.email@example.com</a>
-      </div>
-      <div class="contact-details reveal">
-        <div>
-          <span>Clinical appointments</span>
-          <p>Practice details to be added</p>
-        </div>
-        <div>
-          <span>Academic enquiries</span>
-          <p>Institutional details to be added</p>
-        </div>
-        <div>
-          <span>Location</span>
-          <p>City, Country</p>
-        </div>
-      </div>
+    <section id="contact" class="section section-contact">
+      <div class="section-heading"><p class="section-number">04</p><h2>Contact</h2></div>
+      <div class="section-content"><p class="lead">For clinical, academic, or professional enquiries, please get in touch.</p><a class="contact-link" href="mailto:info@marcopappalardo.com">info@marcopappalardo.com <span aria-hidden="true">↗</span></a></div>
     </section>
   </main>
-
-  <footer>
-    <a class="brand footer-brand" href="#home">
-      <span class="brand-mark">MP</span>
-      <span class="brand-name">Marco Pappalardo</span>
-    </a>
-    <p>© <span id="year"></span> Marco Pappalardo. All rights reserved.</p>
-    <p class="footer-note">Medical information on this website does not replace a personal consultation.</p>
-  </footer>
+  <footer class="site-footer"><p>© <span id="year"></span> Marco Pappalardo</p><a href="#home">Back to top ↑</a></footer>
 </body>
 </html>
