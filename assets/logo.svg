@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 260" role="img" aria-labelledby="title desc">
+  <title id="title">Marco Pappalardo logo</title>
+  <desc id="desc">MP monogram with Marco Pappalardo, Professor Plastic Surgery, Plastic and Aesthetic Surgery, Lymphedema Microsurgery.</desc>
+  <rect width="1180" height="260" fill="#ffffff"/>
+  <g transform="translate(26 26)">
+    <g fill="#123b63" font-family="Georgia, 'Times New Roman', serif">
+      <text x="8" y="155" font-size="158" font-style="italic" font-weight="700">M</text>
+      <text x="112" y="170" font-size="154" font-style="italic">P</text>
+    </g>
+    <path d="M54 164 C94 122 126 89 171 58" fill="none" stroke="#c5a462" stroke-width="4" stroke-linecap="round"/>
+    <line x1="230" y1="15" x2="230" y2="205" stroke="#d8dde2" stroke-width="2"/>
+    <text x="268" y="88" fill="#123b63" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="700" letter-spacing="1">MARCO PAPPALARDO</text>
+    <text x="272" y="137" fill="#123b63" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="7">PROFESSOR PLASTIC SURGERY</text>
+    <line x1="272" y1="157" x2="902" y2="157" stroke="#c5a462" stroke-width="2"/>
+    <text x="272" y="195" fill="#68727d" font-family="Arial, Helvetica, sans-serif" font-size="20" letter-spacing="1.2">PLASTIC &amp; AESTHETIC SURGERY  ·  LYMPHEDEMA MICROSURGERY</text>
+  </g>
+</svg>
