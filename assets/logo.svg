@@ -1,17 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 250" role="img" aria-labelledby="title desc">
-  <title id="title">Marco Pappalardo logo</title>
-  <desc id="desc">Elegant navy MP monogram with a subtle gold connecting stroke, Marco Pappalardo, Professor Plastic Surgery.</desc>
-  <rect width="1180" height="250" fill="#ffffff"/>
-  <g transform="translate(18 18)">
-    <g fill="#0d2946" font-family="Georgia, 'Times New Roman', serif">
-      <text x="10" y="154" font-size="164" font-weight="400">M</text>
-      <text x="116" y="176" font-size="160" font-weight="400">P</text>
-    </g>
-    <path d="M72 164 C104 154 126 124 150 91 C171 63 190 48 209 43" fill="none" stroke="#c5a462" stroke-width="5" stroke-linecap="round"/>
-    <text x="292" y="78" fill="#0d2946" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" letter-spacing="5">MARCO PAPPALARDO</text>
-    <line x1="292" y1="96" x2="965" y2="96" stroke="#c5a462" stroke-width="2"/>
-    <text x="294" y="142" fill="#0d2946" font-family="Georgia, 'Times New Roman', serif" font-size="27" letter-spacing="6">PROFESSOR PLASTIC SURGERY</text>
-    <line x1="294" y1="159" x2="535" y2="159" stroke="#c5a462" stroke-width="2"/>
-    <text x="294" y="197" fill="#66727d" font-family="Arial, Helvetica, sans-serif" font-size="19" letter-spacing="1.6">PLASTIC &amp; AESTHETIC SURGERY  ·  LYMPHEDEMA MICROSURGERY</text>
-  </g>
+<title id="title">Marco Pappalardo logo</title>
+<desc id="desc">Approved MP monogram with Marco Pappalardo professional identity.</desc>
+<rect width="1180" height="250" fill="#ffffff"/>
+<g transform="translate(8 8) scale(0.70)">
+  <path d="M147,11L147,155L169,155L169,158L164,158L164,164L157,164L157,176L150,176L150,202L175,202L175,205L145,205L145,202L170,202L170,176L163,176L163,164L156,164L156,158L151,158L151,155L151,112L136,143L122,168L108,190L94,205L81,213L72,216L72,214L81,212L94,203L108,188L121,165L135,140L149,110L149,11ZM43,11L43,192L56,192L56,195L35,195L35,192L41,192L41,11ZM47,11L100,141L147,11L147,37L103,151L100,151L47,23ZM176,72L198,72L219,77L236,87L246,99L251,112L252,128L249,143L243,155L234,164L221,172L205,176L176,176L176,172L197,172L211,168L222,161L230,153L235,142L237,131L236,119L232,108L225,99L215,91L203,86L190,84L176,84ZM176,84L176,202L199,202L199,205L170,205L170,202L174,202L174,84Z" fill="#0a2a53" fill-rule="evenodd"/>
+  <path d="M70,216C93,208 110,190 128,167C149,140 168,112 190,91C207,75 222,65 235,62C220,67 204,79 186,96C166,115 148,141 130,165C111,190 93,209 70,216Z" fill="#c5a462" fill-rule="evenodd"/>
+</g>
+<g transform="translate(285 34)">
+  <text x="0" y="52" fill="#0a2a53" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" letter-spacing="3.4">MARCO PAPPALARDO</text>
+  <line x1="0" y1="70" x2="760" y2="70" stroke="#c5a462" stroke-width="2"/>
+  <text x="0" y="118" fill="#0a2a53" font-family="Georgia, 'Times New Roman', serif" font-size="27" letter-spacing="5.5">PROFESSOR PLASTIC SURGERY</text>
+  <line x1="0" y1="137" x2="250" y2="137" stroke="#c5a462" stroke-width="2"/>
+  <text x="0" y="180" fill="#69717e" font-family="Arial, Helvetica, sans-serif" font-size="19" letter-spacing="1.15">PLASTIC &amp; AESTHETIC SURGERY · LYMPHEDEMA MICROSURGERY</text>
+</g>
 </svg>
