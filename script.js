@@ -22,7 +22,7 @@ if (year) year.textContent = new Date().getFullYear();
 
 const heroPortrait = document.querySelector("#hero-portrait");
 if (heroPortrait) {
-  fetch("/assets/hero-photo-base64.txt?v=20260923-newhq")
+  fetch("/assets/hero-photo-base64.txt?v=20260923-hq2")
     .then((response) => {
       if (!response.ok) throw new Error("Portrait data unavailable");
       return response.text();
