@@ -18,3 +18,18 @@ if (menuButton && navigation) {
 
 const year = document.querySelector("#year");
 if (year) year.textContent = new Date().getFullYear();
+
+
+const heroPortrait = document.querySelector("#hero-portrait");
+if (heroPortrait) {
+  fetch("/assets/hero-photo-base64.txt?v=20260923-newhq")
+    .then((response) => {
+      if (!response.ok) throw new Error("Portrait data unavailable");
+      return response.text();
+    })
+    .then((base64) => {
+      const data = base64.trim();
+      if (data) heroPortrait.src = "data:image/webp;base64," + data;
+    })
+    .catch(() => {});
+}
