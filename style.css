@@ -76,3 +76,19 @@
 .specialist-surgery-card b{color:#fff;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase}
 @media(max-width:1280px){.specialist-surgery-section{margin-left:5vw;margin-right:5vw}}
 @media(max-width:700px){.specialist-surgery-section{padding:65px 0}.specialist-surgery-grid{grid-template-columns:1fr}.specialist-surgery-card{min-height:250px}}
+
+
+/* Homepage surgery sections layout hotfix */
+.specialist-surgery-section{width:auto!important;max-width:1120px!important;margin:0 auto!important;padding:90px 0!important;box-sizing:border-box}
+.specialist-surgery-section .section-head{max-width:760px!important;margin:0 auto 38px!important;text-align:center!important}
+.specialist-surgery-section .section-head h2{font-size:clamp(2.4rem,4vw,4rem)!important;margin:.35rem 0 .8rem!important;color:var(--navy)!important}
+.specialist-surgery-section .section-head p{max-width:650px!important;margin-left:auto!important;margin-right:auto!important}
+.specialist-surgery-grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:22px!important;width:100%!important}
+.specialist-surgery-card{min-width:0!important;min-height:300px!important;padding:32px!important;display:flex!important;flex-direction:column!important;box-sizing:border-box!important;border:1px solid var(--line)!important;background:var(--navy)!important;color:#fff!important;text-decoration:none!important}
+.specialist-surgery-card h3{color:#fff!important}
+.specialist-surgery-card p{color:#d6dee6!important}
+.aesthetic-categories .aesthetic-category-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important;max-width:980px!important}
+.aesthetic-categories .aesthetic-category-card,.aesthetic-categories .aesthetic-category-card:nth-child(4),.aesthetic-categories .aesthetic-category-card:nth-child(5),.aesthetic-categories .aesthetic-category-card:nth-child(6){grid-column:auto!important}
+@media(max-width:1280px){.specialist-surgery-section{margin-left:5vw!important;margin-right:5vw!important}}
+@media(max-width:820px){.aesthetic-categories .aesthetic-category-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}.specialist-surgery-grid{grid-template-columns:1fr!important}}
+@media(max-width:560px){.aesthetic-categories .aesthetic-category-grid{grid-template-columns:1fr!important}.specialist-surgery-section{padding:60px 0!important}}
