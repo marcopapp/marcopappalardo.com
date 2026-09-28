@@ -40,3 +40,23 @@
 .aesthetic-categories .aesthetic-category-card h3{font-size:1.28rem;margin:1.1rem 0 .4rem}
 .aesthetic-categories .aesthetic-category-card p{font-size:.86rem}
 .aesthetic-categories .aesthetic-section-action{text-align:center;margin-top:1.6rem}
+
+
+/* Homepage procedure cards v3 */
+.aesthetic-categories{padding:90px max(5vw,calc((100vw - 1120px)/2));background:#f6f7f8}
+.aesthetic-categories .section-head{max-width:720px;margin:0 auto 38px;text-align:center}
+.aesthetic-categories .section-head h2{margin:.35rem 0 .8rem}
+.aesthetic-categories .section-head>p:last-child{max-width:620px;margin-left:auto;margin-right:auto;color:var(--muted)}
+.aesthetic-categories .aesthetic-category-grid{display:grid!important;grid-template-columns:repeat(6,minmax(0,1fr))!important;gap:18px!important;max-width:980px!important;margin:0 auto!important}
+.aesthetic-categories .aesthetic-category-card{grid-column:span 2;min-height:245px!important;padding:0!important;border:1px solid var(--line)!important;border-radius:8px!important;background:#fff!important;box-shadow:0 7px 24px rgba(13,41,70,.06)!important;text-decoration:none!important;display:flex!important;flex-direction:column!important;overflow:hidden;transition:transform .22s ease,box-shadow .22s ease!important}
+.aesthetic-categories .aesthetic-category-card:nth-child(4){grid-column:2/span 2}
+.aesthetic-categories .aesthetic-category-card:nth-child(5){grid-column:4/span 2}
+.aesthetic-categories .aesthetic-category-card:hover{transform:translateY(-4px);box-shadow:0 14px 34px rgba(13,41,70,.10)!important}
+.aesthetic-categories .card-number{height:88px;margin:0!important;padding:22px 24px;background:linear-gradient(135deg,#edf2f5,#f8f9fa);color:var(--gold)!important;font-size:.72rem!important;font-weight:700;letter-spacing:.14em}
+.aesthetic-categories .card-copy{padding:20px 24px 22px;display:flex;flex:1;flex-direction:column}
+.aesthetic-categories .card-copy h3{margin:0 0 8px!important;color:var(--navy);font-size:1.32rem!important}
+.aesthetic-categories .card-copy p{margin:0 0 18px!important;color:var(--muted);font-size:.88rem!important;line-height:1.55}
+.aesthetic-categories .card-copy b{margin-top:auto;color:var(--navy);font-size:.68rem;letter-spacing:.08em;text-transform:uppercase}
+.aesthetic-categories .aesthetic-section-action{text-align:center;margin-top:30px}
+@media(max-width:820px){.aesthetic-categories{padding:65px 5vw}.aesthetic-categories .aesthetic-category-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}.aesthetic-categories .aesthetic-category-card,.aesthetic-categories .aesthetic-category-card:nth-child(4),.aesthetic-categories .aesthetic-category-card:nth-child(5){grid-column:auto}.aesthetic-categories .aesthetic-category-card:last-child{grid-column:1/-1;max-width:calc(50% - 9px);width:100%;justify-self:center}}
+@media(max-width:560px){.aesthetic-categories .aesthetic-category-grid{grid-template-columns:1fr!important}.aesthetic-categories .aesthetic-category-card,.aesthetic-categories .aesthetic-category-card:last-child{grid-column:auto;max-width:none}.aesthetic-categories .aesthetic-category-card{min-height:215px!important}}
