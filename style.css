@@ -99,3 +99,7 @@
 .procedures-master-title h2{font-size:clamp(2.8rem,4.5vw,4.5rem);line-height:1.05;margin:0;color:var(--navy)}
 .aesthetic-categories .section-head h3,.specialist-surgery-section .section-head h3{font-family:var(--serif);font-size:clamp(2rem,3vw,3rem);line-height:1.12;color:var(--navy);margin:0 0 14px;font-weight:500}
 .specialist-surgery-section .section-head{margin-bottom:38px!important}
+
+
+/* Uppercase procedure category headings */
+.aesthetic-categories .section-head .category-heading,.specialist-surgery-section .section-head .category-heading{text-transform:uppercase;letter-spacing:.08em;font-size:clamp(1.65rem,2.5vw,2.45rem);font-weight:600}
