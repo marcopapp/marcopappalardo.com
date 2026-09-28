@@ -60,3 +60,19 @@
 .aesthetic-categories .aesthetic-section-action{text-align:center;margin-top:30px}
 @media(max-width:820px){.aesthetic-categories{padding:65px 5vw}.aesthetic-categories .aesthetic-category-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}.aesthetic-categories .aesthetic-category-card,.aesthetic-categories .aesthetic-category-card:nth-child(4),.aesthetic-categories .aesthetic-category-card:nth-child(5){grid-column:auto}.aesthetic-categories .aesthetic-category-card:last-child{grid-column:1/-1;max-width:calc(50% - 9px);width:100%;justify-self:center}}
 @media(max-width:560px){.aesthetic-categories .aesthetic-category-grid{grid-template-columns:1fr!important}.aesthetic-categories .aesthetic-category-card,.aesthetic-categories .aesthetic-category-card:last-child{grid-column:auto;max-width:none}.aesthetic-categories .aesthetic-category-card{min-height:215px!important}}
+
+
+/* Specialist plastic surgery homepage section */
+.specialist-surgery-section{max-width:var(--max);margin:0 auto;padding:95px 0}
+.specialist-surgery-section .section-head{max-width:760px;margin:0 auto 38px;text-align:center}
+.specialist-surgery-section .section-head>p:last-child{color:var(--muted);max-width:650px;margin-left:auto;margin-right:auto}
+.specialist-surgery-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.specialist-surgery-card{min-height:300px;padding:32px;display:flex;flex-direction:column;border:1px solid var(--line);background:var(--navy);color:#fff;text-decoration:none;transition:transform .22s ease,box-shadow .22s ease}
+.specialist-surgery-card:hover{transform:translateY(-4px);box-shadow:0 16px 38px rgba(13,41,70,.14)}
+.specialist-surgery-card>span{color:var(--gold);font-size:.72rem;font-weight:700;letter-spacing:.14em}
+.specialist-surgery-card>div{margin-top:auto}
+.specialist-surgery-card h3{color:#fff;font-size:1.8rem;margin:0 0 12px}
+.specialist-surgery-card p{color:#d6dee6;line-height:1.6;margin:0 0 22px;max-width:520px}
+.specialist-surgery-card b{color:#fff;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase}
+@media(max-width:1280px){.specialist-surgery-section{margin-left:5vw;margin-right:5vw}}
+@media(max-width:700px){.specialist-surgery-section{padding:65px 0}.specialist-surgery-grid{grid-template-columns:1fr}.specialist-surgery-card{min-height:250px}}
