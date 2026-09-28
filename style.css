@@ -19,3 +19,15 @@
 .profile-trust-badges{display:flex;flex-wrap:wrap;gap:.65rem;margin:1.25rem 0 1rem}
 .profile-trust-badges span{display:inline-flex;align-items:center;padding:.58rem .9rem;border:1px solid rgba(20,48,75,.10);border-radius:999px;background:#f7f8f8;color:#53606b;font-size:.88rem;font-weight:500;letter-spacing:.01em}
 @media (max-width:640px){.profile-trust-badges{gap:.5rem}.profile-trust-badges span{font-size:.82rem;padding:.52rem .78rem}}
+
+
+/* Homepage aesthetic surgery categories */
+.aesthetic-category-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin-top:2rem}
+.aesthetic-category-card{min-height:210px;padding:1.65rem;display:flex;flex-direction:column;justify-content:flex-end;border:1px solid rgba(20,48,75,.10);background:linear-gradient(180deg,#fafafa 0%,#f3f5f6 100%);text-decoration:none;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.aesthetic-category-card:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(20,48,75,.08);border-color:rgba(20,48,75,.20)}
+.aesthetic-category-card span{margin-bottom:auto;font-size:.76rem;letter-spacing:.14em;color:#8a949c}
+.aesthetic-category-card h3{margin:1.4rem 0 .45rem;color:#17334d;font-family:Georgia,'Times New Roman',serif;font-size:1.55rem;font-weight:500}
+.aesthetic-category-card p{margin:0;color:#66717a;line-height:1.55;font-size:.92rem}
+.aesthetic-section-action{margin-top:1.5rem}
+@media (max-width:900px){.aesthetic-category-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.aesthetic-category-grid{grid-template-columns:1fr}.aesthetic-category-card{min-height:170px}}
