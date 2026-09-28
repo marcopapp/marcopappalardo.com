@@ -31,3 +31,12 @@
 .aesthetic-section-action{margin-top:1.5rem}
 @media (max-width:900px){.aesthetic-category-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:560px){.aesthetic-category-grid{grid-template-columns:1fr}.aesthetic-category-card{min-height:170px}}
+
+
+/* Compact procedure-card layout */
+.aesthetic-categories .section-head{max-width:680px;margin-left:auto;margin-right:auto;text-align:center}
+.aesthetic-categories .aesthetic-category-grid{max-width:900px;margin:2rem auto 0;gap:1.1rem}
+.aesthetic-categories .aesthetic-category-card{min-height:190px;border-radius:6px;padding:1.35rem;background:#fff;box-shadow:0 6px 22px rgba(20,48,75,.06)}
+.aesthetic-categories .aesthetic-category-card h3{font-size:1.28rem;margin:1.1rem 0 .4rem}
+.aesthetic-categories .aesthetic-category-card p{font-size:.86rem}
+.aesthetic-categories .aesthetic-section-action{text-align:center;margin-top:1.6rem}
