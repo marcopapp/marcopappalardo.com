@@ -269,3 +269,16 @@
     max-width:220px;
   }
 }
+
+/* Uppercase primary navigation - 2026-11-01 */
+@media(min-width:821px){
+  .site-nav>a,
+  .site-nav .nav-trigger{
+    text-transform:uppercase;
+    letter-spacing:.06em;
+  }
+  .site-nav>.nav-book{
+    text-transform:uppercase;
+    letter-spacing:.05em;
+  }
+}
