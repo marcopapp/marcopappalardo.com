@@ -282,3 +282,13 @@
     letter-spacing:.05em;
   }
 }
+
+/* Revert desktop nav to normal capitalization for spacing - 2026-11-01 */
+@media(min-width:821px){
+  .site-nav>a,
+  .site-nav .nav-trigger,
+  .site-nav>.nav-book{
+    text-transform:none;
+    letter-spacing:0;
+  }
+}
