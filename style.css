@@ -231,3 +231,41 @@
   .nav-phone{padding:0 15px;font-size:.82rem}
   .site-nav>.nav-book{padding:0 18px;font-size:.82rem}
 }
+
+/* Header logo alignment refinement - 2026-11-01 */
+@media(min-width:1181px){
+  .site-header{
+    padding-left:max(5vw,calc((100vw - 1240px)/2));
+    padding-right:max(3vw,calc((100vw - 1320px)/2));
+    gap:34px;
+  }
+  .brand-logo{
+    width:275px;
+    max-width:275px;
+  }
+  .site-nav{
+    gap:22px;
+  }
+  .site-nav>a,
+  .site-nav .nav-trigger{
+    font-size:.90rem;
+  }
+  .nav-phone{
+    min-height:56px;
+    padding-left:20px;
+    padding-right:20px;
+    font-size:.88rem;
+  }
+  .site-nav>.nav-book{
+    min-height:56px;
+    padding-left:22px;
+    padding-right:22px;
+    font-size:.88rem;
+  }
+}
+@media(min-width:821px) and (max-width:1180px){
+  .brand-logo{
+    width:220px;
+    max-width:220px;
+  }
+}
