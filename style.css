@@ -308,3 +308,19 @@
     max-width:86px;
   }
 }
+
+/* Restore normal capitalization and single-line Italian navigation */
+@media(min-width:821px){
+  .site-nav>a,
+  .site-nav .nav-trigger,
+  .site-nav>.nav-book{
+    text-transform:none;
+    letter-spacing:0;
+  }
+  .nav-surgery{
+    white-space:nowrap!important;
+    line-height:1.2;
+    text-align:left;
+    max-width:none;
+  }
+}
