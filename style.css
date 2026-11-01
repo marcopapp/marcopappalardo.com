@@ -292,3 +292,19 @@
     letter-spacing:0;
   }
 }
+
+/* Italian uppercase navigation with controlled two-line Surgery label */
+@media(min-width:821px){
+  .site-nav>a,
+  .site-nav .nav-trigger,
+  .site-nav>.nav-book{
+    text-transform:uppercase;
+    letter-spacing:.05em;
+  }
+  .nav-surgery{
+    white-space:normal!important;
+    line-height:1.15;
+    text-align:center;
+    max-width:86px;
+  }
+}
