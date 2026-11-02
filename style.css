@@ -324,3 +324,30 @@
     max-width:none;
   }
 }
+
+/* Procedure card photography - Pexels licensed imagery */
+.aesthetic-category-card,
+.specialist-surgery-card{overflow:hidden}
+.aesthetic-category-card .procedure-card-image,
+.specialist-surgery-card .procedure-card-image{
+  display:block;
+  width:calc(100% + 2.7rem);
+  max-width:none;
+  height:150px;
+  margin:-1.35rem -1.35rem 1rem;
+  object-fit:cover;
+  object-position:center;
+  transition:transform .35s ease;
+}
+.aesthetic-category-card:hover .procedure-card-image,
+.specialist-surgery-card:hover .procedure-card-image{transform:scale(1.025)}
+.specialist-surgery-card .procedure-card-image{
+  width:100%;
+  height:210px;
+  margin:0 0 1.2rem;
+  border-radius:4px;
+}
+@media(max-width:560px){
+  .aesthetic-category-card .procedure-card-image{height:180px}
+  .specialist-surgery-card .procedure-card-image{height:190px}
+}
