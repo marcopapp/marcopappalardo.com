@@ -446,3 +446,126 @@
   .specialist-surgery-card .procedure-visual{height:190px}
   .specialist-surgery-card .procedure-graphic{width:64%}
 }
+
+/* Shoaib-like compact procedure cards v3 */
+.aesthetic-categories .aesthetic-category-grid{
+  max-width:980px;
+  gap:16px;
+}
+.aesthetic-categories .aesthetic-category-card{
+  min-height:0;
+  padding:0;
+  border:1px solid rgba(13,41,70,.09);
+  border-radius:7px;
+  background:#fff;
+  box-shadow:none;
+  overflow:hidden;
+}
+.aesthetic-category-card .procedure-visual{
+  width:100%;
+  height:138px;
+  margin:0;
+  background-position:center;
+}
+.aesthetic-category-card .procedure-visual::before{
+  filter:blur(1.5px) saturate(.72) brightness(1.04);
+}
+.aesthetic-category-card .procedure-visual::after{
+  background:rgba(224,239,247,.30);
+}
+.aesthetic-category-card .procedure-graphic{
+  width:58%;
+  min-height:96px;
+  padding:8px 10px 7px;
+  border:1.5px solid #1c5f93;
+  box-shadow:0 4px 10px rgba(13,41,70,.10);
+}
+.procedure-graphic-title{
+  padding-bottom:3px;
+  margin-bottom:1px;
+  border-bottom:0;
+  font-size:.69rem;
+  line-height:1.02;
+  font-weight:800;
+  letter-spacing:.02em;
+}
+.procedure-graphic-subtitle{
+  margin-bottom:2px;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:.44rem;
+  line-height:1;
+  font-style:italic;
+  color:#68727d;
+  text-align:center;
+}
+.aesthetic-category-card .procedure-graphic svg{
+  width:55px;
+  height:55px;
+  stroke-width:1.55;
+}
+.aesthetic-category-card .card-copy{
+  padding:14px 14px 15px;
+}
+.aesthetic-category-card .card-copy h3{
+  margin:0 0 7px;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:.96rem;
+  font-weight:700;
+  color:var(--navy);
+}
+.aesthetic-category-card .card-copy p{
+  min-height:56px;
+  margin:0 0 11px;
+  font-size:.76rem;
+  line-height:1.5;
+  color:var(--muted);
+}
+.aesthetic-category-card .card-copy b{
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:.69rem;
+  font-weight:700;
+  text-transform:none;
+  letter-spacing:0;
+}
+.aesthetic-category-card:hover{
+  transform:translateY(-2px);
+  box-shadow:0 10px 24px rgba(13,41,70,.06);
+}
+
+/* Specialist cards use the same visual language */
+.specialist-surgery-grid{
+  max-width:760px;
+  gap:18px;
+}
+.specialist-surgery-card{
+  padding:0!important;
+  overflow:hidden;
+  background:#fff;
+  border:1px solid rgba(13,41,70,.09);
+  border-radius:7px;
+}
+.specialist-surgery-card .procedure-visual{
+  height:180px;
+  margin:0;
+}
+.specialist-surgery-card .procedure-graphic{
+  width:50%;
+  min-height:112px;
+  padding:9px 12px 8px;
+  border:1.5px solid #1c5f93;
+}
+.specialist-surgery-card .procedure-graphic svg{
+  width:62px;
+  height:62px;
+}
+.specialist-surgery-card>div:last-child{
+  padding:16px 18px 18px;
+}
+.specialist-surgery-card>div:last-child h3{
+  margin:0 0 8px;
+}
+@media(max-width:560px){
+  .aesthetic-category-card .procedure-visual{height:150px}
+  .aesthetic-category-card .procedure-graphic{width:64%}
+  .aesthetic-category-card .card-copy p{min-height:0}
+}
