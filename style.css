@@ -613,3 +613,80 @@
 .specialist-surgery-card .procedure-medical-art{
   max-height:76px;
 }
+
+/* Visconti/Zoccali-inspired photographic procedure cards */
+.photo-category-grid{
+  max-width:980px!important;
+  gap:18px!important;
+}
+.photo-category-card,
+.photo-specialist-card{
+  padding:0!important;
+  overflow:hidden;
+  background:#fff!important;
+  border:1px solid rgba(13,41,70,.10)!important;
+  border-radius:4px!important;
+  box-shadow:none!important;
+}
+.photo-card-media{
+  width:100%;
+  height:190px;
+  overflow:hidden;
+  background:#eef1f3;
+}
+.photo-card-media img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+  transition:transform .35s ease;
+}
+.photo-category-card:hover .photo-card-media img,
+.photo-specialist-card:hover .photo-card-media img{
+  transform:scale(1.025);
+}
+.photo-category-card .card-copy{
+  padding:16px 17px 18px!important;
+}
+.photo-category-card .card-copy h3{
+  margin:0 0 7px!important;
+  font-family:Georgia,"Times New Roman",serif!important;
+  font-size:1.12rem!important;
+  font-weight:400!important;
+}
+.photo-category-card .card-copy p{
+  min-height:58px!important;
+  margin:0 0 13px!important;
+  color:var(--muted)!important;
+  font-size:.80rem!important;
+  line-height:1.55!important;
+}
+.photo-category-card .card-copy b,
+.photo-specialist-card b{
+  font-size:.72rem!important;
+  letter-spacing:0!important;
+  text-transform:none!important;
+}
+.photo-specialist-grid{
+  max-width:860px!important;
+  gap:22px!important;
+}
+.photo-specialist-card .photo-card-media{
+  height:230px;
+}
+.photo-specialist-card>div:last-child{
+  padding:18px 20px 20px!important;
+}
+.photo-specialist-card>div:last-child h3{
+  margin:0 0 8px!important;
+  font-size:1.2rem!important;
+}
+.photo-specialist-card>div:last-child p{
+  color:var(--muted);
+  font-size:.84rem;
+}
+@media(max-width:560px){
+  .photo-card-media{height:210px}
+  .photo-specialist-card .photo-card-media{height:220px}
+}
